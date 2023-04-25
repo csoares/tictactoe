@@ -4,11 +4,16 @@ export const SquareUI = styled.button`
   color: white;
   border: 1px solid #999;
   float: left;
-  font-size: 3em;
   font-weight: bold;
   line-height: 34px;
+  font-size: 3em;
   height: 4em;
   width: 4em;
+  @media (max-width: 768px) {
+    height: 2em;
+    width: 2em;
+    font-size: 2em;
+  }
   margin-right: 5px;
   margin-top: 5px;
   padding: 0;
