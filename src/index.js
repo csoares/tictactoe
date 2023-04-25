@@ -3,18 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 
 class Square extends React.Component {
-  // constructor(props){
-  //     super(props);
-  //     this.state={
-  //         value:null,
-  //     };
-  // }
-
   render() {
     return (
-      // <button className="square" onClick={()=>{this.setState({value:'X'})}}>
-      //   {this.state.value}
-      // </button>
       <button className="square" onClick={() => this.props.onClick()}>
         {this.props.value}
       </button>
@@ -53,7 +43,6 @@ class Board extends React.Component {
   }
 
   render() {
-    // const status = "Next player: " + (this.state.xIsNext ? "X" : "O");
     const winner = calculateWinner(this.state.squares);
     let status;
     if (winner) {
@@ -61,7 +50,6 @@ class Board extends React.Component {
     } else {
       status = "Next player: " + (this.state.xIsNext ? "X" : "O");
     }
-
 
     return (
       <div>
