@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
+// THIS CODE IS DONE DURING THE LECTURE
 class Square extends React.Component {
   render() {
     return (
