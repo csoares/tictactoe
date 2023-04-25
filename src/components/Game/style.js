@@ -7,6 +7,7 @@ export const GameContainer = styled.div`
 
 export const GameInfo = styled.div`
   margin-left: 20px;
+  font-size: 3em;
 `;
 
 export const OrderedList = styled.ol`

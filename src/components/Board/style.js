@@ -10,4 +10,5 @@ export const BoardRow = styled.div`
 
 export const Status = styled.div`
   margin-bottom: 10px;
+  font-size: 3em;
 `;
